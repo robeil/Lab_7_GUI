@@ -101,7 +101,7 @@ public class Program {
 				registerNewMember.registerMemberButton.addActionListener(new ActionListener() { // FIXME ===> ????
 
 					public void actionPerformed(ActionEvent e) {
-
+						libraryMaintains.LibraryMaintains.setVisible(false);
 						String newName = registerNewMember.newNameText.getText().toUpperCase();
 						String newType = registerNewMember.memberTypeText.getText().toUpperCase();
 
